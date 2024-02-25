@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/free-wikipedia-2-461843.webp">
+    <title>Sign_up to Wikipedia</title>
+</head>
+<style>
+    #nav{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    #nav ul{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30vw !important;
+        height: 400px !important;
+        width: 40vw !important;
+        border: 2px solid red;
+
+    }
+    #nav ul li{
+        margin-top: 10px !important;
+    }
+    #nav ul li #name{
+        padding: 10px 10px !important;
+        font-size: 22px !important;
+        width: 90% !important;
+        left: 0px !important;
+    }
+    #nav ul li #password{
+        padding: 10px 10px !important;
+        font-size: 22px !important;
+        width: 90% !important;
+        left: 0px !important;
+    }
+    #nav ul li #Email{
+        padding: 10px 10px !important;
+        font-size: 22px !important;
+        width: 90% !important;
+        left: 0px !important;
+    }
+    #nav ul li #he_she_male{
+        display: flex;
+        list-style: none;
+    }
+</style>
+<body>
+    <div id="nav">
+        <center>
+            <h1><b>Sign_up Now to wikipedia</b></h1>
+        </center>
+        <ul>
+            <li><input type="text" name="myInput" id="name" placeholder="Enter your Name"></li>
+            <li><input type="email" name="myEmail" id="Email" placeholder="Enter your Email"></li>
+            <li><input type="password" name="myPassword" id="password" placeholder="Enter your Password "></li>
+            <div id="he_she_male">
+                <li><input type="radio" name="myGender" id="male">Male</li>
+            <li><input type="radio" name="myGender" id="female">Female</li>
+            </div>
+            <li><input type="date" name="date" id="date"></li>
+            <li><input type="checkbox" name="checkbox" id="checkbox">Allow to Sign_up</li>
+            <li><input type="file" name="myFile" id="File"></li>
+            <li><input type="button" value="Submit"></li>
+        </ul>
+    </div>
+</body>
+</html>
